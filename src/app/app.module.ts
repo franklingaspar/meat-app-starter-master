@@ -2,12 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { RouterModule, PreloadAllModules } from '@angular/router';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms'
-import {LocationStrategy, HashLocationStrategy} from '@angular/common'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+import { LocationStrategy, HashLocationStrategy } from '@angular/common'
 
-import{ListService} from './list/list.service'
+import{ ListService } from './list/list.service'
 
-import {ROUTES} from './app.routes'
+import { ROUTES } from './app.routes'
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
