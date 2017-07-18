@@ -7,3 +7,8 @@ export const environment = {
   production: false,
   api: 'http://localhost:3000'
 };
+
+export const environmentList = {
+  production: false,
+  api2: 'http://localhost:8080/disciplo/api'
+};
